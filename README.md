@@ -27,10 +27,34 @@ It includes different core service like:
 - JDK
 - Postman
 
-### Steps
+### Steps to Clone and Import
 
-1. Import as a gradle project into the Java IDE of your preference.
-2. For building the gradle project
+---
+#### 1. Clone the repository
+1. Open a terminal or command prompt
+2. Clone the project using below command:
+   ````
+   git clone https://github.com/AswiniB16/Book-Crud-Repository
+   ````
+3. Navigate to project directory
+   ````
+   cd Book-Crud-Repository
+   ````
+#### 2. Import the project to IDE
+
+#####  For IntelliJ IDE
+1. Open IntelliJ IDE
+2. Click File > Open 
+3. Navigate to project directory and import as a Gradle project
+4. For the Initial import/clone it will download dependencies and index the project
+5. For building the gradle project use the below command
    ```` 
    gradlew clean build
    ````
+### Steps to set Run Configurations
+
+---
+1. Click Run > Edit Configurations
+2. Click on the + button and select application
+3. Select the JDK version and Main class of the project 
+4. Click OK to save
