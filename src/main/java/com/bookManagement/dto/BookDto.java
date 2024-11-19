@@ -10,7 +10,7 @@ import java.time.LocalDate;
 public class BookDto {
 
     private Integer id;
-    public Integer userId;
+    public String userId;
     public String title;
     public String author;
     public Genre genre;

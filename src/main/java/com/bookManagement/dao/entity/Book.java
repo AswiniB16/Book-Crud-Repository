@@ -17,7 +17,7 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;
-    public Integer userId;
+    public String userId;
     public String title;
     public String author;
     @Enumerated(EnumType.STRING)

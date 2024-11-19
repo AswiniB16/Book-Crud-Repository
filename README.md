@@ -1,19 +1,19 @@
-# **Book Exchange Platform**
+# **Book Crud Service**
 
 ---
-The Book Exchange Service is a microservice designed to manage  CRUD operations for managing book listings, including optional filters, as well as adding, editing, and deleting books.
+The Book Crud Service is a microservice designed to manage  CRUD operations for managing book listings, including optional filters, as well as adding, editing, and deleting books.
 ## Overview
 
 ---
-The Book Exchange Platform is designed to facilitate book exchange for book lovers in a larger scale.
-It includes different core service like:
+The Book Crud Service is designed to facilitate book exchange for book lovers in a larger scale.
+It includes two core service:
 - BookListing Service: Manages search books with filter options
-- ManageBookService:   Manages add, edit and deletion of books
+- ManageBook Service:   Manages add, edit and deletion of books
 
 ## Technologies
 
 ---
-- Java 18
+- Java 18.0.1.1
 - SpringBoot for microservice architecture
 - PostgreSQL as the primary database
 
@@ -47,10 +47,7 @@ It includes different core service like:
 2. Click File > Open 
 3. Navigate to project directory and import as a Gradle project
 4. For the Initial import/clone it will download dependencies and index the project
-5. For building the gradle project use the below command
-   ```` 
-   gradlew clean build
-   ````
+
 ### Steps to set Run Configurations
 
 ---
